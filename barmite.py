@@ -2,7 +2,7 @@ import vk_api
 from vk_api.longpoll import VkEventType, VkLongPoll 
 import time 
   
-token = vk_api.VkApi(token="сырник гений") 
+token = vk_api.VkApi(token="токен") 
 lox = VkLongPoll(token) 
 
 def send(id, text, msgid, att): 
